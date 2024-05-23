@@ -1,0 +1,56 @@
+#container:not(ul li){
+    background-color: rgb(162, 65, 84);
+    /* min-width: 700px; */
+    width: 350px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 10px solid grey;
+    border-radius: 10px;
+    min-width: 300px;
+    text-align: center;
+   
+}
+input{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: block;
+}
+button{
+    padding: 10px;
+    /* padding-left: 45px;    
+    padding-right: 45px; */
+    width: 40%;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 25px;
+    font-weight: bolder;
+    color: rgb(69, 31, 39);
+    background-color: rgb(255, 255, 255);
+}
+ul{
+    list-style-type: none;
+    font-size: 14px;
+    text-align: left;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: azure;
+    display: block;
+    word-wrap: break-word;
+    overflow:hidden;
+    max-width: 120px;
+}
+fieldset{
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    max-width: 85%;
+    overflow-x:scroll;
+    
+}
